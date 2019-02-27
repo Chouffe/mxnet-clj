@@ -3,6 +3,7 @@ FROM ubuntu:18.04
 RUN set -ex; \
     apt-get update && \
     apt-get install -y --no-install-recommends \
+        graphviz \
 	libatlas3-base \
         libcurl3 \
         libgfortran3 \
